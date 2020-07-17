@@ -1,35 +1,24 @@
-# Welcome to the UA5 Python Devops Test
+# Welcome to the UA5 Frontend Test
 
-## Overview 
+### Here’s the final goal
 
-This readme is purposefully lacking in setup instructions.
+Once you complete the challenge, you'll:
 
-We want to make sure you can work within the gcloud environment and figure out how to set up a project without clear instructions.
+- You send us a github link to your repo
+- We'll run `npm install` and `npm run start` to view your result
 
-Why? Sometimes this role will involve jumping into a project with terribly outdated instructions
+## The Test
 
+- Use React to build out what you see in [this Figma link](https://www.figma.com/file/b2kwO88yZdRqLhuhBpQuUB/UA5-Developer-Quiz?node-id=0%3A1).
+- It contains two carousels, each with different content, and one has blue text.
+- Please find a good carousel dependency to use and don't rebuild the wheel.
+- Grab the data.json file from here to use for the carousel content.
+- We also want you to take a stab at responsive styling. The design is only the desktop version, but it also needs to look good on mobile.
 
-### Here’s the goal
+### What we're looking for:
 
-* Get it running locally with gcloud (https://cloud.google.com/appengine/docs/standard/python/download) to be used on App Engine
-* You'll need to run the app engine local development server for testing
-* Fix the issue:
-  * The frontend currently hits a python endpoint, but the server is returning an error
-  * The site title "I passed the test." from the backend isn't appearing on the homepage
-* Deploy it to a *.appspot.com URL e.g. https://samantha-ua5-bugfix.appspot.com
-  * You'll need to create your own app engine project for this
-* Send us back a diff of your code and a link to it staged
-
-The task took Samantha, a savvy gcloud user, 30 minutes to complete.
-
-### What this test isn't:
-* Not a programming/refactor/architecture challenge — the fix is literally two lines of code
-* We're not looking for cool technologies used here, (e.g. no docker/kubernetes)
-
-## Getting Started
-
-Todo: document setup instructions - if you get lost check out the app engine docs
-
-Simply run the build command for the frontend
-
-For the python dependencies, be sure to install them in a directory called `lib`
+- How closely it resembles the original design
+- How you organize your react components
+- Reusability
+- How you organize typography
+- How you're able to do a mobile version without a strict design
