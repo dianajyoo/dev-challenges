@@ -1,0 +1,16 @@
+@import '../../styles/base';
+
+.page {
+  @include flex(column);
+  min-height: 100%;
+  width: 100%;
+  padding: 7% 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  width: 6rem;
+  border-width: 0.2rem;
+  border-color: $divider;
+}
