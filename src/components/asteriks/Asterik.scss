@@ -1,0 +1,18 @@
+@import '../../styles/base';
+
+.asterik {
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+
+.asterik--secondary {
+  left: 0;
+}
+
+@media (max-width: 900px) {
+  .asterik {
+    min-width: 250px;
+    width: 40%;
+  }
+}

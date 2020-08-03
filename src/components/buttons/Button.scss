@@ -1,0 +1,27 @@
+@import '../../styles/base';
+
+.page .btn {
+  width: max-content;
+  margin: 5rem 0;
+  padding: 1.6rem 4rem;
+  font-size: 1.3rem;
+  color: $btn-text;
+  text-transform: uppercase;
+  background: $btn-primary;
+  border: none;
+  border-radius: none;
+}
+
+.page .btn.btn--show {
+  display: inline-block;
+}
+
+.page .btn.btn--hide {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .page .btn {
+    margin: 5rem 5rem 0;
+  }
+}
