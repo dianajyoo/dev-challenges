@@ -5,7 +5,7 @@ const Attribution = ({ children, theme }) => {
   return (
     <h3
       className={
-        'attribution ' + (theme === 'main' ? '' : 'attribution__secondary')
+        'attribution ' + (theme === 'main' ? '' : 'attribution--secondary')
       }
     >
       {children}

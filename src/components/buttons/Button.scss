@@ -10,6 +10,11 @@
   background: $btn-primary;
   border: none;
   border-radius: none;
+
+  &:hover {
+    background: transparent;
+    border: 0.15rem solid $btn-primary;
+  }
 }
 
 .page .btn.btn--show {

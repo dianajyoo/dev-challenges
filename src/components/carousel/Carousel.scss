@@ -33,7 +33,7 @@
     padding-right: 4rem;
 
     .carousel-control-prev-icon {
-      background-image: url('data:image/svg+xml,<svg width="56" height="24" viewBox="0 0 56 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.79366 13.438L12.9175 22.5884L11.5012 24.0005L0.676435 13.1443L0 12.4658L0.648783 11.761L11.4736 0L12.9451 1.35443L3.66422 11.438H56.0007V13.438H3.79366Z" fill="black"/></svg>');
+      background-image: url($prev-arrow);
     }
   }
 
@@ -41,7 +41,7 @@
     padding-left: 4rem;
 
     .carousel-control-next-icon {
-      background-image: url('data:image/svg+xml,<svg width="56" height="24" viewBox="0 0 56 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M52.2063 13.438L43.0825 22.5884L44.4988 24.0005L55.3236 13.1443L56 12.4658L55.3512 11.761L44.5264 0L43.0549 1.35443L52.3358 11.438H-0.000713348V13.438H52.2063Z" fill="black"/></svg>');
+      background-image: url($next-arrow);
     }
   }
 
